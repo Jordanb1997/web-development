@@ -1,0 +1,6 @@
+a cookie is a piece of data that is stored in a users browser. the cookie is sent with
+requests to the server. the data froma cookie can be edited in the browser by the user.a
+ cookie can be used to identify a user and holds user information such as browser data.
+
+a session is an information exchange between users and computer or computers. a session is
+semi permanent. a session a method of comunnication that uses a state.

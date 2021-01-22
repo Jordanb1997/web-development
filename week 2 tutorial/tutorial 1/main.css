@@ -1,0 +1,14 @@
+body { 
+    background-color: aquamarine;
+}
+table#01, th#01, td#01 {
+    
+    border: 2px solid black;
+}
+th, td {
+    text-align: center;
+}
+table#02, th#02, td#02 {
+    border: 10px solid red;
+}
+

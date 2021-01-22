@@ -1,0 +1,204 @@
+ <div id="mastermenu">
+            <p id="useinfo">Tick a box to add to a menu</p>
+            <table id="masterbev">
+            <tr>
+            <th>items</th>
+            <th>Price</th>
+            <th>Lazenby's</th>
+            <th>The Refectory</th>
+            <th>The Trade Table</th>
+            </tr>
+            <tr>
+            <td>Mocha</td>
+            <td>4.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+			<td><input type="checkbox" name="thegrove" /></td>
+            <td><input type="checkbox" name="thewalk" /></td>
+            </tr>
+            <tr>
+            <td>Capuccino</td>
+            <td>4.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Hot Chocolate</td>
+            <td>3.80</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Chai Latte</td>
+            <td>4.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Coke</td>
+            <td>4.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <tr>
+            <td>Water</td>
+            <td>3.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Flavoured Water</td>
+            <td>4.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Bubble Tea</td>
+            <td>8.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Flat White</td>
+            <td>4.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Macchiato</td>
+            <td>4.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Latte</td>
+            <td>4.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Caesar Salad</td>
+            <td>5.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Fruit Salad</td>
+            <td>2.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Vegetable Plate</td>
+            <td>10.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Carbonara</td>
+            <td>15.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Beef Burrito</td>
+            <td>10.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Chicken Parmigiana</td>
+            <td>20.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Fried Rice</td>
+            <td>10.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Sushi</td>
+            <td>10.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Ham Sandwich</td>
+            <td>6.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Curried Egg Sandwich</td>
+            <td>6.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Chocolate Muffin</td>
+            <td>4.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Blueberry Muffin</td>
+            <td>4.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Dumplings</td>
+            <td>12.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Egg Sandwich</td>
+            <td>6.50</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Vanilla Slice</td>
+            <td>6.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            <tr>
+            <td>Chocolate Brownie</td>
+            <td>5.00</td>
+            <td><input type="checkbox" name="lazenbys" /></td>
+            <td><input type="checkbox" name="theref" /></td>
+            <td><input type="checkbox" name="tradetable" /></td>
+            </tr>
+            </table>
+        </div>

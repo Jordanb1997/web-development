@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="./tute2-2.css">
+</head>
+<body>
+	 
+	<input id="homer" type="checkbox">
+	<label for="homer">Homer Simpson</label>
+	<input id="marge" type="checkbox">
+	<label for="marge">Marge Simpson</label>
+	<input id="bart" type="checkbox">
+	<label for="bart">Bart Simpson</label>
+	<input id="lisa" type="checkbox">
+	<label for="lisa">Lisa Simpson</label>
+	<input id="maggie" type="checkbox">
+	<label for="maggie">Maggie Simpson</label>
+	<br/><br/>
+	
+    
+	<div id="div1">
+        <img src="img/Homer_Simpson.png" alt="Homer Simpson">
+    </div>
+	
+	<div id="div2">
+        <img src="img/Marge_Simpson.png" alt="Marge Simpson">
+    </div>	 
+	
+	<div id="div3">
+        <img src="img/Bart_Simpson.png" alt="Bart Simpson">
+    </div>
+
+	<div id="div4">
+        <img src="img/Lisa_Simpson.png" alt="Lisa Simpson">
+    </div>
+	
+	<div id="div5">
+        <img src="img/Maggie_Simpson.png" alt="Maggie Simpson">
+    </div>	 
+	<script>
+        
+    $(document).ready(function(){
+        $("div").hide();
+    });   
+        
+    $(document).ready(function(){
+        $("input#homer").click(function(){
+            $("div#div1").toggle();
+        });
+    });
+        
+    $(document).ready(function(){
+        $("input#marge").click(function(){
+            $("div#div2").toggle();
+        });
+    });
+    $(document).ready(function(){
+        $("input#bart").click(function(){
+            $("div#div3").toggle();
+        });
+    });
+            $(document).ready(function(){
+        $("input#lisa").click(function(){
+            $("div#div4").toggle();
+        });
+    });
+            $(document).ready(function(){
+        $("input#maggie").click(function(){
+            $("div#div5").toggle();
+        });
+    });
+        
+        
+	</script> 
+</body>
+</html>

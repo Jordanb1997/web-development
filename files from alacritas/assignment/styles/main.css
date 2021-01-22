@@ -1,0 +1,110 @@
+/*tyle for page bodies*/
+body { 
+    background-color: #f1f1f1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/*style for nav bar div*/
+div#pagetop{
+    display: inline-block;
+    background-color: bisque;
+    border-bottom: 5px solid #ffd199; 
+    border-bottom-style: solid;
+    margin: 0; 
+    padding-left: 10px;
+    width: 100%;
+}
+/*page title*/
+p#yeom {
+    padding-right: 10px;
+}
+/*style for different parts of the nab bar list*/
+ul#pagetop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+li#top {
+    display: inline;
+    float: left;
+    margin: 0;
+
+}
+/*nav bar link styles*/
+div#pagetop a{
+    display: inline-block;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin 0;
+}
+/**style for all links and visited links*/
+a:link, a:visited{
+    background-color: #ff9c1a;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+}
+/*style on link hover*/
+a:hover {
+    background-color: #ffd199;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+}
+/*for the reg link*/
+a#reg{
+    padding: 10px;
+}
+/*menu button div*/
+div#menubutt{
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 20px;  
+}
+/*style for menu button links*/
+a#llink, a#relink, a#trlink, a#grlink, a#walink{
+    padding: 30px;
+    padding-bottom: 20px;
+    max-width: 90px;
+    display:inline-block;
+}
+a#mainlink{
+    padding: 10px;
+    max-width: 80px;
+    display:inline-block;
+}
+div#sitename {
+    border: none;
+}
+/*styles for logging in*/
+div#loginform{ 
+    background-color: #ffe4c4;
+    display:inline-block;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-left: 35%;
+    padding: 15px;
+    text-align: center;
+}
+/*submit button*/
+input#submit1, input#submit2{
+    background-color: #ff9c1a;
+    border: none;
+    padding: 15px;
+}
+/*for the fields*/
+input#email, input#password {
+    float: right;
+    
+}

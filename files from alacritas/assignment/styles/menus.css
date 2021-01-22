@@ -1,0 +1,55 @@
+/*styles for tables*/
+table{
+    border-collapse: collapse;
+    width: 50%;
+    max-width: 500;
+
+}
+/*for table headers*/
+th{
+    background-color: #ff9c1a;
+    max-width: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+/*for table cell*/
+td{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ffddb3;
+}
+/*styles across several table elements*/
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*div that contains table*/
+div#menu{
+    display:block;
+    margin-left: 30%;
+    padding: 15px;
+}
+/*styles master list div*/
+div#mastermenu{
+    display:block;
+    margin-left: 25%;
+    padding: 15px;
+}
+/*styles the times and name*/
+div#headtime{
+    display:block;
+    margin-left: 30%;
+    padding: 15px;
+}
+/*for expaination of master list*/
+p#useinfo{
+        display:inline-block;
+}
+
+
+

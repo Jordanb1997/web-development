@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>tutorial week 11</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script type="text/javascript">
+      function setup_country_change(){
+         //check whether country section is changed.
+         $('#country').change(update_cities);
+      }
+      
+      function update_cities(){
+         //assigns the selected country to country variable.
+         var country = $('#country').val();
+         
+         //get_cities.php performs when the country is selected.
+         //call the function(show_cities) when the data is returned from get_cities.php.
+         $.get('get_cities.php?country='+country,show_cities);
+      }
+      
+      function show_cities(cities){
+	  
+         $('#cities').html(cities);
+      }
+	  
+	  function setup_population_change(){
+         //check whether country section is changed.
+         $('#population').change(update_population);
+      }
+	  
+	function update_population(){
+		var population = $('#population');
+
+	    $.get('checker.php?cities='+cities,show_population);
+		
+	}
+	
+	function show_population(population){
+        $('#population').html(population);
+        
+    }
+	//When the page is loaded, function (setup_country_change())is called.
+	$(document).ready(setup_country_change);
+	//$(document).ready(show_population);
+	
+
+   </script>
+</head>
+<body>
+   <h3>tutorial week 11</h3>
+   <form id="select_country" name="select_country" method="" action="#">
+      <table>
+         <tr>
+            <th>Country: </th>
+            <td>
+               <select name="country" id="country">
+                  <option value="" selected="selected">Please Select Country</option>
+                  <option value="au">Australia</option>
+                  <option value="cn">China</option>
+                  <option value="uk">United Kingdom</option>                  
+                  <option value="us">United States</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <th>Cities: </th>
+            <td id="cities">Please Select Country First</td>
+         </tr>
+      </table>
+   </form>
+   <p id="population">Population:</p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/*style for the registration form div*/
+div#regform{
+    background-color: #ffe4c4;
+    display:inline-block;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-left: 35%;
+    padding: 15px;
+    text-align: center;
+}
+/*styling the input form*/
+input#email, input#password, input#confirm_password, input#stid, input#phonenumber, input#cardnumber, input#name {
+    float: right;
+    display: inline-block;
+}
+

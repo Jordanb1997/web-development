@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="jquery.validate.js></script>
+	<script>
+	function validate(){
+		if ($("#name").val()==""{
+			alert("please enter your full name.");
+			return false;
+		}else if ($("#password").val()==""{
+			alert("please enter password");
+			return false;
+		}else if ($("#confirm_password").val()==""){
+			alert("please retype password");
+			return false;
+		}else if ($("#password").val() != $("#confirm_password").val()){
+			alert("password does not match");
+			return false;
+		}else if ($("#email").val()==""){
+			alert("please enter your email address");
+			return false;
+		}else if (!$("#agree").attr('checked')){
+			alert("you must agree to the terms and conditions");
+			return false;
+		}		
+	}</script>
+</head>
+<body>
+<form id="signupForm" method="get" action ="" onsubmit="return validate();">
+	<fieldset>
+		<legend>user registration</legend>
+		<p>
+			<label for="name">full name</label>
+			<input id="name" name="name" />
+		</p>
+		<p>
+			<label for="password">password</label>
+			<input id="password" name="password" />
+		</p>		
+		<p>
+			<label for="confirm_password">password (confirmation)</label>
+			<input id="confirm_password" name="confirm_password" />
+		</p>		
+		<p>
+			<label for="email">email</label>
+			<input id="email" name="email" />
+		</p>
+		<p>
+			<label for="agree">agree to the terms and conditions</label>
+			<input type="checkbox" class="checkbox" id="agree" name="agree"/>
+		</p>
+		<p>
+			<input class="submit" type"submit" value="submit" />
+		</p>
+	</fieldset>
+</form>
+</body>
+</html>
+

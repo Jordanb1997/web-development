@@ -1,0 +1,30 @@
+body{ 
+    background-color: #f1f1f1;
+}
+
+div#ref, div#laz, div#trade {
+    //border: 1px solid #336699;
+    width: 150px;
+    display:inline;
+    
+   // background-color: #336699;
+
+}
+div {
+    border: 1px solid #336699;
+    width: 150px;
+    display:inline;
+
+    background-color: #336699;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    margin-top: 0;
+    border-top: 10px solid #4080ff;
+    background-color: #4080ff;
+    height; 150px;
+}
